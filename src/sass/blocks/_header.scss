@@ -1,0 +1,164 @@
+.header {
+    position: relative;
+
+
+    &__cap {
+        display: flex;
+        position: relative;
+    }
+
+    &__title {
+        margin-top: 16px;
+        font-family: 'Elsie', sans-serif;
+        font-weight: 900;
+        font-size: 40px;
+        color: #333333;
+    }
+
+    &__menu {
+        width: 315px;
+        margin-left: 60px;
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__link {
+        font-family: 'Manrope', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+
+        &:hover {
+            text-decoration: none;
+        }
+
+    }
+
+    &__contact {
+        position: absolute;
+        right: 0;
+        margin-top: 16px;
+        width: 154px;
+        height: 48px;
+        font-family: 'Elsie';
+        font-weight: 900;
+        font-size: 16px;
+        color: #5DC4B8;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    &__oval {
+        position: absolute;
+        z-index: -1;
+        right: -134px;
+        top: 0;
+    }
+
+    &__description {
+        margin-top: 200px;
+    }
+
+    &__subtitle {
+        font-family: 'Manrope';
+        font-weight: 700;
+        font-size: 20px;
+        color: #EF633E;
+    }
+
+    &__subtitlebig {
+        margin-top: 26px;
+        font-family: 'Elsie';
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 80px;
+        color: #333333;
+        max-width: 460px;
+    }
+
+    &__text {
+        margin-top: 22px;
+        font-family: 'Manrope';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+
+
+    &__seemenu {
+        margin-top: 26px;
+    }
+
+    &__items {
+        display: flex;
+    }
+
+    &__rectangle {
+        position: relative;
+        margin-top: 140px;
+        margin-left: 135px;
+    }
+
+    &__girl {
+        position: absolute;
+        left: -185px;
+        top: 32px;
+
+    }
+
+    &__bitmap {
+        margin-top: 176px;
+        margin-bottom: 32px;
+    }
+
+    &__item {
+        position: relative;
+    }
+
+    &__wrapp {
+        margin-left: 30px;
+        margin-top: -80px;
+    }
+
+    &__pipl {
+        position: relative;
+        display: flex;
+        justify-content: end;
+
+        :nth-child(1) {
+            position: relative;
+            left: 55px;
+            z-index: -1;
+        }
+
+        :nth-child(2) {
+            position: absolute;
+            right: 170px;
+            z-index: -1;
+            top: 20px;
+        }
+
+        :nth-child(3) {
+            position: relative;
+            left: 36px;
+            z-index: -1;
+        }
+
+        :nth-child(4) {
+            position: relative;
+            left: 18px;
+            z-index: -1;
+        }
+
+    }
+
+    &__media {
+        display: none;
+    }
+
+    &__meidaoval {
+        display: none;
+    }
+
+}
